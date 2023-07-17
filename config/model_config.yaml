@@ -1,0 +1,13 @@
+MixDLIP: 
+  embed_dim : 1024
+  image_resolution : 224
+  vision_layers : [3, 4, 6, 3]
+  vision_width : 64
+  vision_patch_size : 0 # ideally it should be none
+  context_length : 128
+  vocab_size : 65536
+  transformer_width : 512
+  transformer_heads : 8
+  transformer_layers : 6 # 12 in CLIP
+
+
